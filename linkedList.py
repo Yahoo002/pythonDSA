@@ -24,7 +24,7 @@ class LinkedList:
     def insertAfter(self, prev_node, new_data):
 
         if prev_node is None:
-            print("The given previous node must inLinkedList.")
+            print("The given previous node must be in LinkedList.")
             return
 
         new_node = Node(new_data)
@@ -53,7 +53,7 @@ class LinkedList:
 
         temp = self.head
 
-        if position == 0:
+        if position == 1:
             self.head = temp.next
             temp = None
             return
