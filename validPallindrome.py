@@ -7,6 +7,7 @@
 class Solution:
     def isPallindrome(self, s: str) -> bool:
         # O(1)
+        # two pointer
         i, j = 0, len(s) - 1
         while i < j:
             a, b = s[i].lower(), s[j].lower()
